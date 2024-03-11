@@ -7,7 +7,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0.75)),url();
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0.75)),url(./photo-1616046229478-9901c5536a45.avif);
     background-size: cover;
     background-position: center;
 }
@@ -43,6 +43,10 @@ button{
     background: transparent;
     border: 2px solid #009688;
     position: relative;
+}
+/* Button hover effect */
+button:hover{
+    background-color: #081b29;
 }
 
 .logo{
@@ -87,4 +91,9 @@ button{
 .navbar ul li a:hover {
     color: yellow; /* Text color on hover */
     text-decoration: none;
+}
+.navbar img {
+    width: 50px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Optional: Add margin for spacing */
 }
