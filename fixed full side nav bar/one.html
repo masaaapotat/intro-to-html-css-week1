@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal navigation bar</title>
+    <style>
+        /*creating a horixontal nav using inlne li
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}*/
+/*crating a horizontal li by floating*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left; /*Use float to get block elements to float next to each other*/
+}
+li a{
+    display: block;/**/
+    padding: 8px;/*some padding between each <a> element, */
+    background-color: darkgoldenrod;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+</body>
+</html>

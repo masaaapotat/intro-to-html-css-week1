@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nanum+Gothic+Coding&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', 'Nanum Gothic Coding', 'Raleway', sans-serif;
+}
+/*syling the header*/
+.myheading{
+
+    width: calc(100% - 40px);
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    padding: 20px;
+    background-color: #081b29;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-radius: 10px;
+
+}

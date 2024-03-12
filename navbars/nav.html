@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: gray;
+            border: 1px solid #555;
+        }
+        li a{
+            display:block;
+            color: bisque;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        /*hover*/
+        li a:hover{
+            background-color: aqua;
+            color: red;
+
+        }
+        /*current navigation link*/
+        .active{
+            background-color:  #04AA6D;
+            color: white;
+
+        }
+        li{
+            text-align: center;
+            border: bottom 1px solid rgb(93, 90, 90)  ;
+        }
+        li:last-child{
+            border-bottom: none;
+
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      
+      <p>Note: We use href="#" for test links. In a real web site this would be URLs.</p>
+      
+</body>
+</html>
